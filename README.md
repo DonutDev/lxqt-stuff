@@ -19,3 +19,12 @@ Go into compiz settings (ccsm) go to Window Decoration and into the "command" pl
 ### /usr/bin/gtk-window-decorator --metacity-theme Mint-Y --replace
 
 the command above changes the titlebar thing so it's not the ugly default one (change "Mint-Y" to prefered theme")
+
+# Setup Script
+To run the lx.sh or the setup.sh script you will need to use this command
+
+. ./setup.sh
+
+or 
+
+. ./lx.sh
