@@ -1,7 +1,7 @@
 #!/bin/bash
 sudo dnf upgrade
 sudo dnf install https://mirrors.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm https://mirrors.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm
-sudo dnf install *compiz* ccsm vim krita git discord steam neofetch htp kvantum mpv compton ffmpeg python3-pip --allowerasing
+sudo dnf install *compiz* ccsm vim krita git discord steam neofetch htp kvantum mpv compton ffmpeg python3-pip qt5-designer --allowerasing
 sudo dnf remove pavucontrol pavucontrol-qt
 
 sudo dnf install -y dnf-plugins-core distribution-gpg-keys
