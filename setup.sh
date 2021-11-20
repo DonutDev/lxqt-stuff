@@ -1,7 +1,7 @@
 #!/bin/bash
 sudo dnf upgrade
 sudo dnf install https://mirrors.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm https://mirrors.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm
-sudo dnf install *compiz* ccsm vim krita git discord steam neofetch htop kvantum
+sudo dnf install *compiz* ccsm vim krita git discord steam neofetch htop kvantum mpv
 
 echo "Run this script by doing . ./lx.sh DON'T run it as ./lx.sh as it won't run"
 echo "Stay close to the computer and don't do anything until the script is finished"
