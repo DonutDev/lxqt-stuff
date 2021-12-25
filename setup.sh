@@ -20,4 +20,5 @@ sudo mv Adwaita-dark /usr/share/themes
 sudo mv Mint-Y-Dark /usr/share/themes
 sudo mv debian /usr/share/lxqt/themes
 sudo mv Papirus-Dark /usr/share/icons
+sudo mv .bashrc /home/donut/
 echo "Script should be finished, go into the appearance settings and change the lxqt theme and icons from there"
